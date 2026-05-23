@@ -22,17 +22,17 @@ nav a {
     text-decoration: none;
     font-weight: 200;
 }
-.logo{
+.hero-logo{
     display: flex;
     margin-top: 80px;
     justify-content: center;
     align-items: center;
 }
-.logo img{
+.hero-logo img{
     width: 8%;
     height: auto;
 }
-article{
+.about{
     display: flex;
     margin-top: 80px;
     margin-left: 40px;
@@ -40,21 +40,18 @@ article{
     /* border: 1px solid rgb(199, 196, 196);
     border-radius: 15px; */
 }
-article p{
+.about p{
     color: rgb(90, 88, 88);
     font-family: Helvetica;
     font-size: 17px;
     font-weight: 100;
     text-align: center;
 }
-.steve{
-    /* margin-top: 30px; */
-}
-.steve img{
+.hero-picture img{
     max-width: 100%;
     height: auto;
 }
-.campus{
+.quote{
     display: flex;
     position: relative;
     margin-top: 80px;
@@ -62,7 +59,7 @@ article p{
     background-size: cover;
     background-image: url(back1.jpg);
 }
-.citate{
+.quote p{
     position: absolute;
     left: 600px;
     bottom: 40%;
