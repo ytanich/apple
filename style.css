@@ -53,18 +53,17 @@ nav a {
 }
 .quote{
     display: flex;
-    position: relative;
+    justify-content: flex-end;
+    padding-right: 80px;
+    align-items: center;
     margin-top: 80px;
     height: 100vh;
     background-size: cover;
     background-image: url(back1.jpg);
 }
 .quote p{
-    position: absolute;
-    left: 600px;
-    bottom: 40%;
     max-width: 550px;
-    text-align: end;
+    text-align: right;
     color: rgb(248, 243, 243);
     font-family: Helvetica;
     font-weight: 100;
