@@ -3,8 +3,10 @@ body{
 }
 nav {
     position: fixed;
-    top: 0;
-    width: 100%;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    /* width: 100%; */
     z-index: 1000;
     display: flex;
     justify-content: space-around;
@@ -14,6 +16,7 @@ nav {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 nav a {
     color: white;
@@ -69,4 +72,181 @@ nav a {
     font-weight: 100;
     font-size: 25px;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+ .iphone{
+    display: flex;
+    /* align-items:center; */
+    justify-content:space-between;
+    margin-top: 80px;
+    margin-left: 10px;
+    gap: 40px;
+    /* border: 1px solid red; */
+ }
+.iphone-text{
+    margin-top: 50px;
+    flex: 1;
+    flex-direction: column;
+}
+.iphone-name{
+    display: block;
+    color: rgb(107, 104, 104);
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 25px;
+    border: solid gray;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px 15px;
+    width: fit-content;
+    /* border: 1px solid orange; */
+}
+.iphone-description{
+    display: block;
+    font-family: Helvetica;
+    justify-content:flex-end;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 40px;
+    color: rgb(107, 103, 103);
+    /* border: 1px solid yellowgreen; */
+}
+.iphone-logo{
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    background-image: url(iphone2g.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gray; */
+}
+.ipad-logo{
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    background-image: url(ipad.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gray; */
+}
+.macbook-logo{
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    background-image: url(macb.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gray; */
+}
+.watch-logo{
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    background-image: url(watch.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gray; */
+}
+.ceo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+    gap: 40px;
+}
+.johnternus{
+    display: flex;
+    flex: 1;
+    margin-top: 80px;
+    /* margin-left: 40px; */
+    height: 500px;
+    justify-content:flex-start;
+    /* border: 1px solid orange; */
+    flex-direction: column;
+}
+.johnternusbio{
+    display: block;
+    font-family: Helvetica;
+    justify-content:flex-end;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 40px;
+    color: rgb(107, 103, 103);
+
+    /* margin: 0px;
+    font-family: Helvetica;
+    color: rgb(105, 102, 102); */
+    /* border: 1px solid red; */
+}
+.johnternusname{
+    /* color: rgb(107, 104, 104);
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px 0px 10px 25px;
+    border: solid gray;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px 15px;
+    width: fit-content;
+    height: fit-content; */
+    display: block;
+    color: rgb(107, 104, 104);
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 25px;
+    border: solid gray;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px 15px;
+    width: fit-content;
+
+    /* border: 1px solid rgb(212, 65, 65); */
+}
+.johnternusphoto{
+    flex: 1;
+    margin-top: 80px;
+    background-image: url(jt.jpg);
+    /* width: 400px; */
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid gray; */
+}
+.steve-logo{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    background-image: url(sj.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gray; */
+}
+.ternus-logo{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    background-image: url(jt2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gray; */
+}
+.tim-logo{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    background-image: url(tc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gray; */
 }
